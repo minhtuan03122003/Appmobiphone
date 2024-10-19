@@ -1,0 +1,210 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 1000;
+    height: 150px;
+    width: 1450px;
+    top: 0;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.search input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#menu {
+    display: flex;
+}
+
+.item {
+    margin: 0 15px;
+    position: relative;
+}
+
+.item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500; /* Thêm độ đậm cho liên kết */
+}
+
+/*.submenu {*/
+/*    display: none;*/
+/*    position: absolute;*/
+/*    background: white;*/
+/*    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
+/*    z-index: 1000; !* Đảm bảo submenu hiển thị trên các phần tử khác *!*/
+/*}*/
+
+/*.item:hover .submenu {*/
+/*    display: block;*/
+/*}*/
+
+#actions {
+    display: flex;
+    align-items: center;
+}
+
+.shopping {
+    position: relative;
+}
+
+.quantity {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px; /* Thay đổi kích thước chữ cho rõ ràng hơn */
+}
+
+#banner {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffe419;
+}
+
+.box-left,
+.box-right {
+    flex: 1;
+}
+
+.box-right-top-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-right-bottom {
+    margin-top: 20px;
+}
+
+#wp-products {
+    padding: 20px;
+    text-align: center;
+}
+
+#list-products {
+    list-style:none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.product-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+.star img {
+    color: #ffe419;
+    width: 10px;
+}
+
+.name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.price {
+    color: green;
+    margin-top: 5px;
+}
+
+.list-page {
+    margin-top: 20px;
+}
+
+.list-page .item {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 -2px 4px rgba(228, 174, 174, 0.1); /* Thêm bóng cho footer */
+}
+
+.box-sp {
+    flex: 1;
+    margin: 0 20px;
+}
+.box {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.box h3 {
+    margin-top: 0;
+}
+
+.quick-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-menu .item {
+    margin: 5px 0;
+}
+
+#end {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #e9ecef;
+}
+.tk button{
+    background-color: #ffe419;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px; 
+}
+.dangnhap-btn{
+    background-color: burlywood;
+    justify-content: center;
+    border-radius: 5px;
+}
